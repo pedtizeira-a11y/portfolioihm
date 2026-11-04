@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de estudante de Análise e Desenvolvimento de Sistemas">
+
+    <title>Meu Portfólio | Desenvolvedor</title>
+
+    <link rel="stylesheet" href="./css/style.css?v=2">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Menu principal">
+            <a href="#inicio" class="logo">GalegoTec</a>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-conteudo">
+                <p class="apresentacao">Olá, seja bem-vindo!</p>
+                <h1>pedro horbson</h1>
+                <h2>Estudante de ADS</h2>
+
+                <p>
+                    Desenvolvendo soluções, criando projetos
+                    e aprendendo novas tecnologias.
+                </p>
+
+                <a href="#projetos" class="botao">
+                    Ver meus projetos
+                </a>
+            </div>
+
+            <div class="hero-imagem">
+                <img src="./img/perfil.png"
+                     alt="Foto de perfil do estudante">
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou estudante de Análise e Desenvolvimento
+                de Sistemas. Tenho interesse em desenvolvimento
+                web, programação e banco de dados.
+                Estou sempre buscando aprender novas
+                tecnologias e melhorar minhas habilidades.
+            </p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus projetos</h2>
+
+            <div class="grade-projetos">
+                <article class="projeto">
+                    <img class="imagem-escalonamento"
+                         src="./img/escalonamento-fcfs.webp"
+                         alt="Imagem ilustrativa do projeto de escalonamento">
+
+                    <h3>Escalonamento de Processos</h3>
+
+                    <p>
+                        Projeto acadêmico de Sistemas Operacionais,
+                        com implementação do algoritmo FCFS
+                        utilizando a linguagem C.
+                    </p>
+
+                    <a href="https://github.com/juliobrasileiro786-create/ProjetoEscalonamentoSO/commit/eadf5c726f242d2ec94d396cfec6b6c487408d45"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Ver no GitHub →
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Minhas habilidades</h2>
+
+            <ul class="lista-habilidades">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Linguagem C</li>
+                <li>Git e GitHub</li>
+                <li>Banco de Dados SQL</li>
+                <li>Desenvolvimento Web</li>
+                <li>Programação Mobile</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <p>
+                Tem alguma dúvida ou deseja conversar
+                sobre projetos? Envie uma mensagem.
+            </p>
+
+            <p class="links-contato">
+                <a href="mailto:pedtizeira@gmail.com">pedtizeira@gmail.com</a>
+                <a href="https://www.instagram.com/pedrof_hrp/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram
+                </a>
+            </p>
+
+            <form action="https://formspree.io/f/xoeerdno"
+                  method="post">
+
+                <label for="nome">Nome</label>
+                <input type="text"
+                       id="nome"
+                       name="nome"
+                       placeholder="Digite seu nome"
+                       required
+                       minlength="3">
+
+                <label for="email">E-mail</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Digite seu e-mail"
+                       required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem"
+                          name="mensagem"
+                          rows="5"
+                          placeholder="Escreva sua mensagem"
+                          required
+                          minlength="10"></textarea>
+
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
