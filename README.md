@@ -25,6 +25,7 @@ O projeto tem como objetivo demonstrar o funcionamento do escalonamento de proce
 
 - **E-mail:** [pedtizeira@gmail.com](mailto:pedtizeira@gmail.com)
 - **Instagram:** [@pedrof_hrp](https://www.instagram.com/pedrof_hrp/)
+- site github pages https://pedtizeira-a11y.github.io/portfolioihm/
 
 ## Estrutura do projeto
 
